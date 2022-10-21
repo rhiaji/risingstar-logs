@@ -1,6 +1,6 @@
 # Risingstar-logs
 Discord Risingstar game logs in JSON format
-<h1> DO NOT USE YOUR OWN AUTHORIZATION TOKEN!!!! USE DUMMY ACCOUNT
+<h1> DO NOT USE YOUR OWN AUTHORIZATION TOKEN!!!! USE DUMMY ACCOUNT </h1>
 
 
 To use it just copy the files and past in a folder. 
