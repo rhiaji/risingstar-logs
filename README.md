@@ -11,3 +11,15 @@ npm install
 to install the modules needed
 
 
+To run the code just input in the terminal:
+
+npm run all
+
+after this you are good to go! 
+
+go to your....
+
+localhost:3000/startbits    ------ to get the realtime data logs for players who finished a missions
+
+localhost:3000/skill        ------ to get the real time data logs for players who finished a lesson
+
