@@ -6,14 +6,14 @@ To use it just copy the files and past in a folder.
 
 after copying run the terminal inside the folder and run
 
-npm install
+                   npm install
 
 to install the modules needed
 
 
 To run the code just input in the terminal:
 
-npm run all
+                   npm run all
 
 after this you are good to go! 
 
