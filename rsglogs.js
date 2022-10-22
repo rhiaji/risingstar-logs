@@ -63,8 +63,6 @@ ws.on('open', function open() {
             let firstword = content.split("***")[1];
             let username = content.split(" ")[0];
             let timeagain = timenow.split("T")[1];
-            let lastword = content.split(" ego")[0];
-            let filter = lastword.split("gained")[1];
             
            
    // ----------------------------- CONFIGURATION FOR PLAY STARBITS & EGO GAINED ---------------------//
@@ -72,10 +70,9 @@ ws.on('open', function open() {
             if (content.match("Starbits") == "Starbits"){
 
                 let earned = firstword.split(" Starbits")[0];
-                let starbits_earned = Number(earned);
-                let ego = filter.split("***")[1];
-                let filter2 = ego.split(" ")[0];
-                let ego_earned = Number(filter2);
+                let starbits_earned = Number(earned);  
+                let ego = content.split("***")[3];   
+                let ego_earned = Number(ego);
                 let time = timeagain.split(".")[0];
                 
 
